@@ -25,11 +25,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         setupCollectionViewCells()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     // MARK: - Setup
 
     func setupCollectionViewCells() {
